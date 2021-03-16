@@ -52,7 +52,7 @@ if (currentTask == 'dev') {
         exclude: /(node_modules)/,
         use: {
             loader: 'babel-loader',
-            option: {
+            options: {
                 presets: ['@babel/preset-env']
             }
         }
